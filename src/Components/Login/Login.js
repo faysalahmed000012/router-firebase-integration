@@ -7,7 +7,7 @@ const Login = () => {
     <div>
       <h2>Please login</h2>
       <div style={{ margin: "20px" }}>
-        <button>Google Sign In</button>
+        <button onClick={singInWithGoogle}>Google Sign In</button>
       </div>
       <form>
         <input type="email" name="" id="" placeholder="Your email" />
